@@ -1,0 +1,9 @@
+gcp_project_id      = "gcp-project-id"       # Existing GCP Project ID
+gcp_account_name    = "GCP-Account"          # Existing GCP Account Name in Aviatrix Controller
+gcp_region          = "australia-southeast1" # Region
+gw_size             = "n1-standard-1"        # Aviatrix Spoke Gateway Size
+pre_shared_key      = "secrets"              # VPN Pre-Shared Key
+machine_type        = "f1-micro"             # VM Instance Size
+overlap_cidr        = "10.1.0.0/24"          # Private Subnet which overlaps between Production and On-Prem
+prod_virtual_cidr   = "172.16.0.0/24"        # Virtual CIDR for Production VPC
+onprem_virtual_cidr = "172.17.0.0/24"        # Virtual CIDR for On-Prem VPC 

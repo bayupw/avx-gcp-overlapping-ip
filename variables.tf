@@ -1,0 +1,9 @@
+variable "gcp_project_id" {}
+variable "gcp_account_name" {}
+variable "gcp_region" {}
+variable "gw_size" {}
+variable "pre_shared_key" {}
+variable "machine_type" {}
+variable "overlap_cidr" {}
+variable "prod_virtual_cidr" {}
+variable "onprem_virtual_cidr" {}
